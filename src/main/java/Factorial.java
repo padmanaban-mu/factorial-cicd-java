@@ -3,7 +3,7 @@ public class Factorial {
     public static long calculate(int n) {
 
         if (n < 0) {
-            throw new IllegalArgumentException("Negative number");
+           throw new IllegalArgumentException("Factorial is not defined for negative numbers");
         }
 
         long result = 1;
